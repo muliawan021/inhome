@@ -24,9 +24,21 @@ var _Login = require('./src/component/Login');
 
 var _Login2 = _interopRequireDefault(_Login);
 
-var _Topbar = require('./src/component/Topbar');
+var _Header = require('./src/component/Header');
 
-var _Topbar2 = _interopRequireDefault(_Topbar);
+var _Header2 = _interopRequireDefault(_Header);
+
+var _Service = require('./src/component/Service');
+
+var _Service2 = _interopRequireDefault(_Service);
+
+var _Banner = require('./src/component/Banner');
+
+var _Banner2 = _interopRequireDefault(_Banner);
+
+var _Detail = require('./src/component/Detail');
+
+var _Detail2 = _interopRequireDefault(_Detail);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -72,12 +84,20 @@ var App = _wrapComponent('App')(function (_Component) {
   _createClass(App, [{
     key: 'render',
     value: function render() {
-      return _react3.default.createElement(_Topbar2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        }
-      });
+      return _react3.default.createElement(
+        _reactNative.View,
+        { style: styles.container, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31
+          }
+        },
+        _react3.default.createElement(_Detail2.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 32
+          }
+        })
+      );
     }
   }]);
 
@@ -90,9 +110,7 @@ exports.default = App;
 var styles = _reactNative.StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF'
+    backgroundColor: 'white'
   },
   welcome: {
     fontSize: 20,

@@ -13,7 +13,10 @@ import {
 } from 'react-native';
 import Splash from './Splash';
 import Login from './src/component/Login';
-import Topbar from './src/component/Topbar';
+import Header from './src/component/Header';
+import Service from './src/component/Service';
+import Banner from './src/component/Banner';
+import Detail from './src/component/Detail';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -25,7 +28,10 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
   render() {
     return (
-      <Topbar/> 
+      <View style={styles.container}>
+       <Detail/>
+        
+      </View> 
     );
   }
 }
@@ -33,9 +39,7 @@ export default class App extends Component<{}> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'white',
   },
   welcome: {
     fontSize: 20,
