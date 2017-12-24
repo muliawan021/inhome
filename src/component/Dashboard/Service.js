@@ -8,7 +8,7 @@ export default class Service extends Component{
                 <TouchableOpacity style={styles.service} >
                     <Image
                         style={styles.image}
-                        source={require('../../img/cuci.jpg')}
+                        source={require('../../../img/cuci.jpg')}
                     />
                     <Text style={styles.text} >
                         Cuci AC
@@ -17,7 +17,7 @@ export default class Service extends Component{
                 <TouchableOpacity style={styles.service} >
                     <Image
                         style={styles.image}
-                        source={require('../../img/dismantle.png')}
+                        source={require('../../../img/dismantle.png')}
                     />
                     <Text style={styles.text} >
                         Dismantle
@@ -26,7 +26,7 @@ export default class Service extends Component{
                 <TouchableOpacity style={styles.service} >
                     <Image
                         style={styles.image}
-                        source={require('../../img/freon.png')}
+                        source={require('../../../img/freon.png')}
                     />
                     <Text style={styles.text} >
                         Fill Freon
@@ -34,7 +34,7 @@ export default class Service extends Component{
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.service} >
                     <Image
-                        source={require('../../img/install.jpg')}
+                        source={require('../../../img/install.jpg')}
                         style={styles.image}
                     />
                     <Text style={styles.text} >

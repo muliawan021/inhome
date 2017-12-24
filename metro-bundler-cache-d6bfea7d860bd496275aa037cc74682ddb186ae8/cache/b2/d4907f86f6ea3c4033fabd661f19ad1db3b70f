@@ -20,23 +20,15 @@ var _Splash = require('./Splash');
 
 var _Splash2 = _interopRequireDefault(_Splash);
 
-var _Login = require('./src/component/Login');
+var _Login = require('./src/component/Login/Login');
 
 var _Login2 = _interopRequireDefault(_Login);
 
-var _Header = require('./src/component/Header');
+var _Dashboard = require('./src/component/Dashboard/Dashboard');
 
-var _Header2 = _interopRequireDefault(_Header);
+var _Dashboard2 = _interopRequireDefault(_Dashboard);
 
-var _Service = require('./src/component/Service');
-
-var _Service2 = _interopRequireDefault(_Service);
-
-var _Banner = require('./src/component/Banner');
-
-var _Banner2 = _interopRequireDefault(_Banner);
-
-var _Detail = require('./src/component/Detail');
+var _Detail = require('./src/component/Detail/Detail');
 
 var _Detail2 = _interopRequireDefault(_Detail);
 
@@ -88,13 +80,13 @@ var App = _wrapComponent('App')(function (_Component) {
         _reactNative.View,
         { style: styles.container, __source: {
             fileName: _jsxFileName,
-            lineNumber: 31
+            lineNumber: 29
           }
         },
         _react3.default.createElement(_Detail2.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 32
+            lineNumber: 30
           }
         })
       );

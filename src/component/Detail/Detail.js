@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Image, Text, TouchableOpacity} from 'react-native';
-import Header from './Header.js';
+import Header from '../Header.js';
 import Dismantle from './Dismantle.js';
 import Install from './Install.js';
 import Cleaning from './Cleaning.js';

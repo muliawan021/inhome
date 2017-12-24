@@ -12,11 +12,9 @@ import {
   View
 } from 'react-native';
 import Splash from './Splash';
-import Login from './src/component/Login';
-import Header from './src/component/Header';
-import Service from './src/component/Service';
-import Banner from './src/component/Banner';
-import Detail from './src/component/Detail';
+import Login from './src/component/Login/Login';
+import Dashboard from './src/component/Dashboard/Dashboard';
+import Detail from './src/component/Detail/Detail';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +

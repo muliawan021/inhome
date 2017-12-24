@@ -6,7 +6,7 @@ export default class Banner extends Component{
         return(
             <TouchableOpacity style={styles.container} >
                 <Image
-                    source={require('../../img/service.jpg')}
+                    source={require('../../../img/service.jpg')}
                     style={styles.banner}
                 />
             </TouchableOpacity>
